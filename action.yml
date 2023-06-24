@@ -1,0 +1,15 @@
+name: 'Clear Cache'
+description: 'Clears the cache of your current repository'
+author: TheRealRyGuy
+inputs: 
+    token:
+        description: "Github Token"
+        required: true
+
+branding:
+  color: blue
+  icon: delete
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
